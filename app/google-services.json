@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186300096261",
+    "project_id": "natg-a7f6c",
+    "storage_bucket": "natg-a7f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186300096261:android:a8a26ebc65eb782766216c",
+        "android_client_info": {
+          "package_name": "com.example.natg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186300096261-jjup2loo12q84e1ufd771mk8monfnb28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlH5yZ5Wrkw_ChhwJtsfse7lbU64MRF4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186300096261-jjup2loo12q84e1ufd771mk8monfnb28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
