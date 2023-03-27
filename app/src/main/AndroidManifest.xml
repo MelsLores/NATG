@@ -13,6 +13,15 @@
         android:theme="@style/Theme.NATG"
         tools:targetApi="31">
         <activity
+            android:name=".diversion"
+            android:exported="false" />
+        <activity
+            android:name=".comida"
+            android:exported="false" />
+        <activity
+            android:name=".cafeteria"
+            android:exported="false" />
+        <activity
             android:name=".inicio"
             android:exported="false">
             <meta-data

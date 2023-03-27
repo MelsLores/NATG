@@ -16,12 +16,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         var btnCrear = findViewById<Button>(R.id.button2)
 
         btnCrear.setOnClickListener{
             val intent: Intent=Intent(this,registro::class.java)
             startActivity(intent)
-
         }
+
+
     }
 }
