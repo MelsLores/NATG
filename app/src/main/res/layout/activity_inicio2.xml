@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".inicio"
+    >
+
+    <!-- Botón del menú -->
+    <ImageButton
+        android:id="@+id/buttonMenu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_menu" />
+
+    <!-- Mapa -->
+    <FrameLayout
+        android:id="@+id/frameLayoutMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutOptions"
+        android:layout_marginTop="64dp" />
+
+    <!-- Logo de la app -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/NATGLogo" />
+
+    <!-- Opciones -->
+    <LinearLayout
+        android:id="@+id/linearLayoutOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Botón Cafeteria -->
+        <Button
+            android:id="@+id/buttonCafeteria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cafetería"
+            android:backgroundTint="#52b84b"/>
+
+        <!-- Botón Diversión -->
+        <Button
+            android:id="@+id/buttonDiversion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Diversión"
+            android:backgroundTint="#52b84b"/>
+
+        <!-- Botón Comida -->
+        <Button
+            android:id="@+id/buttonComida"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Comida"
+            android:backgroundTint="#52b84b"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
