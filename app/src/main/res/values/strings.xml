@@ -2,4 +2,9 @@
     <string name="app_name">NATG</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bienvenida">¡Hola!</string>
+    <string name="api_key">AIzaSyBrIG_DOEDxbWmvJGw_C9M2QGFu9ZmZKhM</string>
+    <string name="label_to">Destino</string>
+    <string name="buscarLugar">Buscar</string>
+    <string name="label_from">Origen</string>
 </resources>
